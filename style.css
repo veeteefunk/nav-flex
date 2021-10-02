@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.navbar h1 {
+  margin-left: 30px;
+  background: yellow;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  color: white;
+  background: blue;
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+}
+
+ul li {
+  margin: 20px;
+}
